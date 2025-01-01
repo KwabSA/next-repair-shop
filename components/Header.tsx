@@ -1,4 +1,4 @@
-import { HomeIcon, File, UserRound, FileIcon } from "lucide-react";
+import { HomeIcon, FileIcon, UsersRound } from "lucide-react";
 import Link from "next/link";
 
 import NavButton from "@/components/NavButton";
@@ -21,8 +21,8 @@ const Header = () => {
           </Link>
         </div>
         <div className="flex items-center">
-          <NavButton href="/tickets" label="tickets" icon={File} />
-          <NavButton href="/customer" label="Customers" icon={UserRound} />
+          <NavButton href="/tickets" label="tickets" icon={FileIcon} />
+          <NavButton href="/customer" label="Customers" icon={UsersRound} />
         </div>
       </div>
     </header>
